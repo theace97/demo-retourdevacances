@@ -4,7 +4,6 @@ pipeline {
     tools {
         jdk "jdk17-0-5"
     }
-    
     stages {
         stage('Build') {
             steps {
@@ -16,7 +15,7 @@ pipeline {
     
         stage('coucou') {
             steps {
-                sh "echo \"coucou\""
+                sh 'echo \"coucou\"'
             }
         }
     }
