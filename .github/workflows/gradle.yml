@@ -23,7 +23,7 @@ jobs:
 
     steps:
     - name: chmod exécutable à cause de Windows
-      run: chmod +x  ${GITHUB_WORKSPACE}/gradle/
+      run: chmod +x  ${GITHUB_WORKSPACE}
     
     - uses: actions/checkout@v3
     - name: Set up JDK 19
